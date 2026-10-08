@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="253" height="262" viewBox="0 0 253 262">
+  <title>TrusX Logo</title>
+  <desc>Logo TrusX berupa perisai biru dengan tanda X, orbit, dan tanda verifikasi hijau.</desc>
+
+  <!-- Dark blue vector artwork -->
+  <path d="M 161 201 L 157 197 L 152 188 L 151 172 L 153 167 L 148 160 L 116 168 L 78 173 L 88 188 L 100 200 L 121 215 L 129 219 L 135 219 Z M 199 140 L 184 147 L 196 150 Z M 241 89 L 235 82 L 229 79 L 213 76 L 215 76 L 223 82 L 225 85 L 225 94 L 221 101 L 204 116 L 189 125 L 163 137 L 140 145 L 118 150 L 118 147 L 134 143 L 128 135 L 115 148 L 117 150 L 111 152 L 79 156 L 63 156 L 53 154 L 49 152 L 44 146 L 44 138 L 51 126 L 45 130 L 34 142 L 31 148 L 31 157 L 36 163 L 42 166 L 57 169 L 79 169 L 100 167 L 145 157 L 186 142 L 219 123 L 237 106 L 242 94 Z M 207 67 L 204 64 L 164 52 L 132 36 L 89 56 L 60 64 L 57 66 L 55 71 L 55 102 L 59 128 L 67 152 L 83 152 L 116 121 L 77 81 L 78 79 L 107 79 L 132 105 L 158 79 L 181 79 L 182 81 L 145 119 L 160 134 L 189 120 L 208 106 L 209 75 Z"
+        fill="#08255D"
+        fill-rule="evenodd"
+        clip-rule="evenodd"/>
+
+  <!-- Green verification badge -->
+  <path d="M 178 150 L 167 154 L 160 160 L 155 169 L 154 181 L 158 192 L 166 200 L 175 204 L 187 204 L 188 203 L 191 203 L 198 199 L 205 191 L 208 183 L 208 171 L 204 162 L 201 158 L 196 154 L 189 151 Z M 197 169 L 197 173 L 178 191 L 174 190 L 165 180 L 165 177 L 169 174 L 172 175 L 176 180 L 177 180 L 192 166 Z"
+        fill="#11A85B"
+        fill-rule="evenodd"
+        clip-rule="evenodd"
+        stroke="#FFFFFF"
+        stroke-width="4"/>
+
+  <!-- White verification check -->
+  <path d="M168 181 L178 191 L197 169"
+        fill="none"
+        stroke="#FFFFFF"
+        stroke-width="8"
+        stroke-linecap="round"
+        stroke-linejoin="round"/>
+</svg>

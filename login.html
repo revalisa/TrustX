@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Masuk - TrusX</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+    <header>
+        <nav>
+            <table width="100%">
+                <tr>
+                    <td>
+                        <img src="./assets/images/trusx-logo.svg" alt="Logo TrusX" width="120">
+                    </td>
+
+                    <td align="right">
+                        <a href="beranda.html">Beranda</a>
+                        &nbsp;&nbsp;
+                        <a href="daftar.html">Daftar</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+    <main>
+
+        <section>
+            <h1>Masuk ke TrusX</h1>
+
+            <p>
+                Masuk ke akun kamu untuk menggunakan fitur laporan
+                dan berkontribusi dalam komunitas TrusX.
+            </p>
+
+            <form action="./role-mode.html" method="post">
+
+                <fieldset>
+                    <legend>Informasi Login</legend>
+
+                    <p>
+                        <label for="username">Username</label><br>
+                        <input
+                            type="username"
+                            id="username"
+                            name="username"
+                            placeholder="Masukkan username"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label for="password">Password</label><br>
+                        <input
+                            type="password"
+                            id="password"
+                            name="password"
+                            placeholder="Masukkan password"
+                            required
+                        >
+                    </p>
+
+                    <p>
+                        <label>
+                            <input
+                                type="checkbox"
+                                name="ingat_saya"
+                            >
+                            Ingat saya
+                        </label>
+                    </p>
+
+                    <button type="submit">Masuk</button>
+                </fieldset>
+
+            </form>
+
+            <p>
+                Lupa password?
+                <a href="#">Reset password</a>
+            </p>
+
+            <p>
+                Belum memiliki akun?
+                <a href="./daftar.html">Daftar sekarang</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 TrusX. Semua hak dilindungi.</p>
+
+        <nav>
+            <a href="./index.html">Beranda</a> |
+            <a href="./daftar.html">Daftar</a> |
+            <a href="./login.html">Masuk</a>
+        </nav>
+    </footer>
+
+</body>
+</html>

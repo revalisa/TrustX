@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" role="img" aria-labelledby="title desc">
+  <title id="title">Ikon laporan</title>
+  <desc id="desc">Megafon untuk laporan komunitas</desc>
+  <path d="M18 45h18l42-24v58L36 55H18z" fill="#315edb"/>
+  <path d="M36 55l8 28H31l-8-28z" fill="#1d2c65"/>
+  <path d="M80 40c8 3 8 17 0 20" fill="none" stroke="#1d2c65" stroke-width="5" stroke-linecap="round"/>
+</svg>
