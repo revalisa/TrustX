@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Form hak jawab dan bukti sanggahan resmi penjual.">
+  <title>Form Klarifikasi Penjual - TrustX Cek Dulu</title>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="./assets/images/logo-trustx.svg" alt="TrustX Cek Dulu - ke beranda" width="48" height="48"></a>
+    <nav aria-label="Navigasi halaman">
+      <ul>
+        <li><a href="detail-profile.html">Kembali</a></li>
+        <li><a href="#bantuan">Bantuan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Form Klarifikasi Penjual</h1>
+    <p>Hak jawab &amp; bukti sanggahan resmi.</p>
+
+    <form action="#" method="post">
+      <fieldset>
+        <legend>1. Laporan yang Disanggah (ID #LP-8821)</legend>
+        <dl>
+          <dt>Akun Toko Terlapor</dt>
+          <dd>@seller_gadget_murah</dd>
+          <dt>Pihak Pelapor</dt>
+          <dd>@buyer123</dd>
+          <dt>Tanggal Aduan Masuk</dt>
+          <dd><time datetime="2026-09-20">20 Sep 2026</time></dd>
+          <dt>Ringkasan Aduan Pembeli</dt>
+          <dd>&ldquo;Beli lightstick BTS seharga 650rb, setelah transfer langsung di-block WhatsApp dan akun Twitter ganti handle.&rdquo;</dd>
+        </dl>
+      </fieldset>
+
+      <fieldset>
+        <legend>2. Kronologi &amp; Klarifikasi (wajib diisi)</legend>
+        <p><label for="kronologi">Jelaskan kronologi kejadian sebenarnya, konfirmasi nomor resi pengiriman resmi, atau status kesepakatan secara faktual dan transparan.</label></p>
+        <p><textarea id="kronologi" name="kronologi" rows="6" cols="40" maxlength="3000" placeholder="Tulis kronologi secara runtut (contoh: status paket, nomor resi pengiriman, kendala operasional, dan bukti komunikasi)..." required></textarea></p>
+        <p><small>Ditinjau langsung oleh Tim Mediasi TrustX. Maksimal 500 kata.</small></p>
+      </fieldset>
+
+      <fieldset>
+        <legend>3. Unggah Bukti Pendukung (min. 1 berkas)</legend>
+        <p><label for="bukti">Pilih atau seret dokumen ke sini. Screenshot percakapan lengkap, resi pengiriman valid, mutasi rekening, atau bukti penyerahan barang.</label></p>
+        <p><input type="file" id="bukti" name="bukti" accept="image/png,image/jpeg" multiple required></p>
+        <p><small>Maks. 3 berkas (PNG, JPG hingga 5MB)</small></p>
+        <p>Berkas terlampir (2/3):</p>
+        <ul>
+          <li>Resi_JNE_Reguler_Valid.jpg &ndash; 1.4 MB, terverifikasi gambar</li>
+          <li>Chat_Konfirmasi_Kirim.png &ndash; 890 KB, lengkap dengan timestamp</li>
+        </ul>
+      </fieldset>
+
+      <fieldset>
+        <legend>Pernyataan Kebenaran Data Transaksi</legend>
+        <p>
+          <input type="checkbox" id="pernyataan" name="pernyataan" required>
+          <label for="pernyataan">Saya menyatakan dengan sungguh-sungguh bahwa data, kronologi, dan dokumen yang saya kirimkan adalah asli berdasarkan transaksi nyata. Penyalahgunaan dokumen palsu dapat diproses hukum.</label>
+        </p>
+      </fieldset>
+      <button type="submit">Kirim Klarifikasi</button>
+    </form>
+    <p><a href="report.html">Lanjut ke Pusat Laporan</a></p>
+  </main>
+  <footer id="bantuan">
+    <p>TrustX Seller Ecosystem</p>
+    <p><a href="#bantuan">Bantuan / CS</a></p>
+  </footer>
+</body>
+</html>

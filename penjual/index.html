@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cek reputasi akun penjual di X sebelum bertransaksi.">
+  <title>Beranda - TrustX Cek Dulu</title>
+</head>
+<body>
+  <header>
+    <a href="index.html"><img src="./assets/images/logo-trustx.svg" alt="TrustX Cek Dulu - ke beranda" width="48" height="48"></a>
+    <p>TrustX <small>Cek Dulu</small></p>
+    <nav aria-label="Akun">
+      <ul>
+        <li><a href="register.html">Daftar</a></li>
+        <li><a href="login.html">Masuk</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section aria-labelledby="judul-hero">
+      <h1 id="judul-hero">Cek Reputasi Sebelum Transaksi</h1>
+      <p>Pastikan akun penjual di X terpercaya, hindari penipuan, dan belanja dengan aman.</p>
+      <img src="./assets/images/hero-reputasi.svg" alt="Ilustrasi perisai verifikasi reputasi akun" width="160" height="140">
+    </section>
+
+    <section aria-labelledby="judul-cek">
+      <h2 id="judul-cek">Cek Reputasi Akun</h2>
+      <form action="#" method="post">
+        <fieldset>
+          <legend>Cek berdasarkan</legend>
+          <p>
+            <input type="radio" id="tipe-wa" name="tipe" value="wa" checked>
+            <label for="tipe-wa">Nomer WA</label>
+            <input type="radio" id="tipe-x" name="tipe" value="x">
+            <label for="tipe-x">Username X</label>
+          </p>
+          <p>
+            <label for="target">Nomor WhatsApp atau username X</label><br>
+            <input type="text" id="target" name="target" placeholder="Masukkan nomor WhatsApp..." required>
+          </p>
+        </fieldset>
+        <button type="submit">Cek Reputasi</button>
+      </form>
+      <p><a href="detail-profile.html">Lihat contoh hasil: @seller_gadget_murah</a></p>
+    </section>
+
+    <section aria-labelledby="judul-cara">
+      <h2 id="judul-cara">Cara Kerja TrustX</h2>
+      <p>Mudah, cepat, dan aman.</p>
+      <ol>
+        <li>
+          <img src="./assets/images/icon-cari.svg" alt="" width="32" height="32">
+          <h3>Masukkan Data</h3>
+          <p>Ketik nomor WhatsApp atau username yang ingin dicek.</p>
+        </li>
+        <li>
+          <img src="./assets/images/icon-perisai.svg" alt="" width="32" height="32">
+          <h3>Verifikasi</h3>
+          <p>Kami memeriksa rekam jejak dan laporan dari komunitas.</p>
+        </li>
+        <li>
+          <img src="./assets/images/icon-dokumen.svg" alt="" width="32" height="32">
+          <h3>Hasil</h3>
+          <p>Dapatkan informasi reputasi dan tingkat keamanannya.</p>
+        </li>
+      </ol>
+    </section>
+
+    <section aria-labelledby="judul-laporan">
+      <img src="./assets/images/icon-megafon.svg" alt="" width="48" height="48">
+      <h2 id="judul-laporan">Temukan Laporan</h2>
+      <p>Bantu komunitas dengan melaporkan akun yang mencurigakan atau bermasalah.</p>
+      <p><a href="login.html">Lapor</a></p>
+    </section>
+  </main>
+  <footer id="bantuan">
+    <p>TrustX Seller Ecosystem</p>
+    <p><a href="#bantuan">Bantuan / CS</a></p>
+  </footer>
+</body>
+</html>
