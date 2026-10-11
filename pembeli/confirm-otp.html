@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Masukkan kode OTP 6 digit untuk verifikasi akun pembeli.">
+  <title>Konfirmasi OTP - TrusX Pembeli</title>
+</head>
+<body>
+  <header>
+    <a href="./homepage.html"><img src="../assets/images/trusx-logo.svg" alt="TrusX - ke beranda" width="120"></a>
+    <nav aria-label="Navigasi halaman">
+      <ul>
+        <li><a href="./homepage.html">Kembali</a></li>
+        <li><a href="#bantuan">Bantuan</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>KONFIRMASI KODE OTP</h1>
+    <section aria-labelledby="judul-otp">
+      <img src="../assets/images/icon-gembok.svg" alt="Ikon gembok verifikasi" width="96" height="96">
+      <h2 id="judul-otp">Masukkan Kode Verifikasi OTP</h2>
+      <p>Kami telah mengirimkan kode 6 digit ke nomor WhatsApp: <strong>0812-xxxx-7890</strong></p>
+      <form action="./success-confirmed.html" method="get">
+        <fieldset>
+          <legend>Kode OTP (6 digit)</legend>
+          <input type="text" name="otp1" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="6" required aria-label="Digit 1">
+          <input type="text" name="otp2" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="8" required aria-label="Digit 2">
+          <input type="text" name="otp3" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="2" required aria-label="Digit 3">
+          <input type="text" name="otp4" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="8" required aria-label="Digit 4">
+          <input type="text" name="otp5" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="4" required aria-label="Digit 5">
+          <input type="text" name="otp6" maxlength="1" size="1" inputmode="numeric" pattern="[0-9]" value="1" required aria-label="Digit 6">
+        </fieldset>
+        <p>Tidak menerima kode? <a href="#">Kirim Ulang (00:45)</a></p>
+        <button type="submit">KONFIRMASI &amp; LANJUTKAN</button>
+      </form>
+      <p><small>Verifikasi nomor WhatsApp diperlukan untuk menjaga keamanan akun serta mencegah spam dari akun bot.</small></p>
+    </section>
+  </main>
+  <footer id="bantuan">
+    <p>&copy; 2026 TrusX</p>
+    <p><a href="#bantuan">Bantuan / CS</a></p>
+  </footer>
+</body>
+</html>
