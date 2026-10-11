@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TrustX - Pusat Laporan</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <nav aria-label="Navigasi utama">
+            <table>
+                <tr>
+                    <td>
+                        <a href="../index.html">
+                            <img src="../assets/images/trusx-logo.svg" alt="Logo TrustX, kembali ke halaman awal" width="120">
+                        </a>
+                    </td>
+                    <td>
+                        <a href="#notifikasi">Notifikasi</a>
+                        &nbsp;&nbsp;
+                        <a href="./profil.html">Profil</a>
+                    </td>
+                </tr>
+            </table>
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- JUDUL HALAMAN -->
+        <section>
+            <h1>Pusat Laporan</h1>
+            <p>Pantau status sanggahan dan riwayat keluhan toko.</p>
+        </section>
+
+
+        <!-- FILTER LAPORAN -->
+        <section>
+            <h2>Filter Laporan</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Tampilkan laporan</legend>
+
+                    <input type="radio" id="filter-tuduhan" name="filter" value="tuduhan" checked>
+                    <label for="filter-tuduhan">Tuduhan (2)</label>
+
+                    &nbsp;&nbsp;
+
+                    <input type="radio" id="filter-riwayat" name="filter" value="riwayat">
+                    <label for="filter-riwayat">Riwayat (2)</label>
+
+                    &nbsp;&nbsp;
+
+                    <input type="radio" id="filter-semua" name="filter" value="semua">
+                    <label for="filter-semua">Semua</label>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Terapkan Filter</button>
+                </p>
+            </form>
+
+            <p>
+                <a href="#buat-laporan">&#8853; Buat Laporan Baru &rsaquo;</a>
+            </p>
+        </section>
+
+
+        <!-- DAFTAR LAPORAN -->
+        <section>
+            <h2>Daftar Laporan</h2>
+            <p><strong>2 butuh respon</strong></p>
+
+            <!-- LAPORAN 1 -->
+            <article>
+                <header>
+                    <h3>#LP-8790</h3>
+                    <p>
+                        <strong>&#8987; Dalam Review Tim</strong>
+                        &bull;
+                        <time datetime="2026-10-08">3 Hari Lalu</time>
+                    </p>
+                </header>
+
+                <dl>
+                    <dt>Pelapor</dt>
+                    <dd>@buyer_gadget</dd>
+                </dl>
+
+                <p>
+                    Klaim barang tidak sesuai deskripsi. Bukti unboxing &amp;
+                    resi telah diunggah.
+                </p>
+
+                <p>
+                    <a href="#riwayat-lp-8790">Lihat Riwayat &rsaquo;</a>
+                </p>
+            </article>
+
+            <hr>
+
+            <!-- LAPORAN 2 -->
+            <article>
+                <header>
+                    <h3>#LP-8640</h3>
+                    <p>
+                        <strong>&#10003; Selesai &bull; Pulih</strong>
+                        &bull;
+                        <time datetime="2026-09-12">12 Sep 2026</time>
+                    </p>
+                </header>
+
+                <dl>
+                    <dt>Status</dt>
+                    <dd>Valid</dd>
+                </dl>
+
+                <p>
+                    Sanggahan diterima verifikator. Laporan dihapus dari
+                    catatan toko.
+                </p>
+            </article>
+        </section>
+
+    </main>
+
+
+    <!-- BOTTOM NAVIGATION -->
+    <footer>
+        <nav aria-label="Navigasi bawah">
+            <table>
+                <tr>
+                    <td><a href="./homepage.html">Beranda</a></td>
+                    <td><a href="./laporanpage.html" aria-current="page"><strong>Laporan</strong></a></td>
+                    <td><a href="./profil.html">Profil</a></td>
+                </tr>
+            </table>
+        </nav>
+
+        <p><small>&copy; 2026 TrustX</small></p>
+    </footer>
+
+</body>
+</html>
