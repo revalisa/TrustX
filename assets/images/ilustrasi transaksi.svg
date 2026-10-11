@@ -1,0 +1,78 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" role="img" aria-labelledby="judul deskripsi">
+
+  <title id="judul">Ilustrasi Keamanan Akun</title>
+  <desc id="deskripsi">
+    Perisai dan gembok melambangkan perlindungan akun
+    dan keamanan transaksi digital.
+  </desc>
+
+  <rect width="800" height="520" rx="28" fill="#F0F4FF"></rect>
+
+  <circle cx="400" cy="245" r="190" fill="#E0E7FF"></circle>
+  <circle cx="400" cy="245" r="150" fill="#D4DDFF"></circle>
+
+  <!-- Perisai -->
+  <path d="M400 76 L535 128 L520 270
+           Q500 350 400 405
+           Q300 350 280 270 L265 128 Z" fill="#5B4BDB"></path>
+
+  <path d="M400 104 L507 145 L495 266
+           Q477 329 400 374
+           Q323 329 305 266 L293 145 Z" fill="#253F91"></path>
+
+  <!-- Lubang kunci -->
+  <path d="M360 220 V190
+           A40 40 0 0 1 440 190 V220" fill="none" stroke="#FFFFFF" stroke-width="16" stroke-linecap="round"></path>
+
+  <rect x="344" y="211" width="112" height="100" rx="17" fill="#FFFFFF"></rect>
+
+  <circle cx="400" cy="248" r="13" fill="#5B4BDB"></circle>
+  <path d="M393 255 L389 282 H411 L407 255 Z" fill="#5B4BDB"></path>
+
+  <!-- Ikon centang -->
+  <circle cx="574" cy="118" r="53" fill="#FFFFFF"></circle>
+  <circle cx="574" cy="118" r="43" fill="#D9FBE7"></circle>
+  <path d="M553 118 L568 133 L597 101" fill="none" stroke="#22C55E" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Kartu akun -->
+  <rect x="535" y="300" width="154" height="168" rx="20" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="3"></rect>
+
+  <circle cx="612" cy="342" r="22" fill="#C7D2FE"></circle>
+  <circle cx="612" cy="335" r="8" fill="#5B4BDB"></circle>
+  <path d="M596 353 Q612 333 628 353" fill="#5B4BDB"></path>
+
+  <rect x="561" y="379" width="102" height="9" rx="4" fill="#A5B4FC"></rect>
+  <rect x="573" y="396" width="78" height="9" rx="4" fill="#C7D2FE"></rect>
+
+  <circle cx="612" cy="435" r="20" fill="#DCFCE7"></circle>
+  <path d="M602 435 L609 442 L622 427" fill="none" stroke="#16A34A" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"></path>
+
+  <!-- Kartu kata sandi -->
+  <rect x="82" y="145" width="155" height="76" rx="15" fill="#FFFFFF" stroke="#C7D2FE" stroke-width="3"></rect>
+
+  <g fill="#5B4BDB">
+    <circle cx="111" cy="177" r="5"></circle>
+    <circle cx="132" cy="177" r="5"></circle>
+    <circle cx="153" cy="177" r="5"></circle>
+    <circle cx="174" cy="177" r="5"></circle>
+  </g>
+
+  <rect x="189" y="165" width="25" height="25" rx="5" fill="#5B4BDB"></rect>
+  <path d="M195 165 V159 A6 6 0 0 1 207 159 V165" fill="none" stroke="#5B4BDB" stroke-width="5"></path>
+
+  <!-- Larangan membagikan OTP -->
+  <circle cx="132" cy="315" r="39" fill="#FFFFFF" stroke="#FCA5A5" stroke-width="4"></circle>
+  <text x="132" y="321" font-size="18" text-anchor="middle" font-weight="bold" fill="#DC2626">OTP</text>
+  <path d="M105 288 L159 342" stroke="#EF4444" stroke-width="7" stroke-linecap="round"></path>
+
+  <!-- Ornamen -->
+  <circle cx="230" cy="90" r="7" fill="#A5B4FC"></circle>
+  <circle cx="655" cy="235" r="8" fill="#A5B4FC"></circle>
+  <circle cx="250" cy="425" r="6" fill="#818CF8"></circle>
+  <path d="M170 470 H505" stroke="#A5B4FC" stroke-width="5" stroke-linecap="round"></path>
+
+  <text x="400" y="495" font-family="Arial, sans-serif" font-size="17" font-weight="bold" text-anchor="middle" fill="#253F91">
+    ACCOUNT SECURITY
+  </text>
+</svg>
