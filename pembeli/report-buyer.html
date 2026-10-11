@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Formulir laporan akun transaksi bermasalah pada TrusX.">
+  <title>TrusX - Formulir Laporan</title>
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="../assets/images/trusx-logo.svg" alt="TrustX Cek Dulu - ke beranda" width="60" height="60"></a>
+        <p>TrustX</p>
+        <nav aria-label="Menu Pembeli">
+        <ul>
+            <li><a href="home_buyer.html">Beranda</a></li>
+            <li><a href="laporanpage.html">Laporan</a></li>
+            <li><a href="profil.html">Profil</a></li>
+        </ul>
+        </nav>
+    </header>
+
+  <main>
+    <section aria-labelledby="page-title">
+      <h1 id="page-title">Formulir Laporan</h1>
+      <p>Isi informasi berikut dengan benar agar tim TrusX dapat meninjau laporan transaksi Anda.</p>
+
+      <aside aria-labelledby="notice-title">
+        <h2 id="notice-title">Ketentuan Laporan</h2>
+        <p>Pastikan laporan berisi informasi yang benar dan bukti yang relevan. Jangan sertakan kata sandi, PIN, atau informasi rahasia lainnya.</p>
+      </aside>
+    </section>
+
+    <form action="#" method="post" enctype="multipart/form-data">
+      <section aria-labelledby="identity-title">
+        <fieldset>
+          <legend id="identity-title">1. Identitas Akun Transaksi *</legend>
+
+          <p>
+            <label for="platform">Platform akun yang dilaporkan *</label>
+            <select id="platform" name="platform" required>
+              <option value="">Pilih platform</option>
+              <option value="x">X (Twitter)</option>
+              <option value="whatsapp">WhatsApp</option>
+              <option value="lainnya">Lainnya</option>
+            </select>
+          </p>
+
+          <p>
+            <label for="username">Username atau nomor akun yang dilaporkan *</label>
+            <input type="text" id="username" name="username" placeholder="Contoh: @username_penjual" autocomplete="off" required>
+          </p>
+
+          <p>
+            <label for="nama-akun">Nama akun (jika diketahui)</label>
+            <input type="text" id="nama-akun" name="nama-akun" placeholder="Masukkan nama akun">
+          </p>
+
+          <p>
+            <label for="id-transaksi">ID atau referensi transaksi</label>
+            <input type="text" id="id-transaksi" name="id-transaksi" placeholder="Masukkan ID transaksi jika ada">
+          </p>
+        </fieldset>
+      </section>
+
+      <section aria-labelledby="status-title">
+        <fieldset>
+          <legend id="status-title">2. Status Transaksi *</legend>
+          <input type="radio" id="transaksi-selesai" name="status-transaksi" value="selesai" required>
+          <label for="transaksi-selesai">Transaksi selesai</label>
+          <input type="radio" id="masih-bermasalah" name="status-transaksi" value="bermasalah">
+          <label for="masih-bermasalah">Masih bermasalah</label>
+        </fieldset>
+      </section>
+
+      <section aria-labelledby="story-title">
+        <fieldset>
+          <legend id="story-title">3. Cerita Singkat / Kronologi *</legend>
+          <p>
+            <label for="kronologi">Jelaskan urutan kejadian secara singkat dan jelas *</label>
+            <textarea id="kronologi" name="kronologi" rows="6" cols="40" minlength="20" placeholder="Tuliskan kronologi transaksi, waktu kejadian, komunikasi dengan pihak terkait, dan masalah yang terjadi." required></textarea>
+          </p>
+          <p>Jangan cantumkan kata sandi, PIN, kode OTP, atau data pribadi yang tidak diperlukan.</p>
+        </fieldset>
+      </section>
+
+      <section aria-labelledby="evidence-title">
+        <fieldset>
+          <legend id="evidence-title">4. Upload Bukti Pendukung *</legend>
+          <p>
+            <label for="bukti">Pilih berkas bukti (gambar atau PDF) *</label>
+            <input type="file" id="bukti" name="bukti" accept=".jpg,.jpeg,.png,.webp,.pdf" multiple required>
+          </p>
+          <p>Format yang diterima: JPG, PNG, WebP, atau PDF.</p>
+
+          <table>
+            <caption>Contoh bukti yang dapat disertakan</caption>
+            <thead>
+              <tr>
+                <th scope="col">Jenis Bukti</th>
+                <th scope="col">Keterangan</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Bukti pembayaran</td>
+                <td>Resi atau tangkapan layar pembayaran</td>
+              </tr>
+              <tr>
+                <td>Percakapan</td>
+                <td>Tangkapan layar percakapan yang relevan</td>
+              </tr>
+              <tr>
+                <td>Detail transaksi</td>
+                <td>Invoice, nomor pesanan, atau informasi pendukung</td>
+              </tr>
+            </tbody>
+          </table>
+
+          <ul>
+            <li>Pastikan teks pada bukti dapat dibaca.</li>
+            <li>Jangan unggah berkas yang berisi kata sandi atau kode OTP.</li>
+          </ul>
+        </fieldset>
+      </section>
+
+      <section aria-labelledby="statement-title">
+        <fieldset>
+          <legend id="statement-title">5. Pernyataan Kebenaran Data Transaksi</legend>
+          <input type="checkbox" id="pernyataan" name="pernyataan" value="setuju" required>
+          <label for="pernyataan">Saya menyatakan bahwa informasi dan bukti yang diberikan benar sesuai dengan pengetahuan saya. *</label>
+        </fieldset>
+      </section>
+
+      <p><a href="./confirm-otp.html">Lanjutkan ke Verifikasi OTP</a></p>
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="./home_buyer.html">Kembali ke Beranda</a></p>
+    <p>&copy; 2026 TrusX. Cek dulu sebelum transaksi.</p>
+  </footer>
+</body>
+</html>
